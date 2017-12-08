@@ -16,7 +16,7 @@ function divide(a,b)
 }
 
 function inc(n)
-{ return n++;
+{ console.log(n++)
 }
 
 function dec(n)
@@ -29,6 +29,5 @@ return n;
 }
 
 function preserveDecimal(n)
-{ parseFloat(n);
-return n;
+{ parseFloat('n');
 }
